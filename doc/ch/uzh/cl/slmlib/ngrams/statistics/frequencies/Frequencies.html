@@ -1,0 +1,584 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>Frequencies - SLMLib documentation - ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies</title>
+          <meta name="description" content="Frequencies - SLMLib documentation - ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies" />
+          <meta name="keywords" content="Frequencies SLMLib documentation ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../../../index.html';
+            var hash = 'ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="type">
+      <div id="definition">
+        <img src="../../../../../../../lib/trait_big.png" />
+        <p id="owner"><a href="../../../../../../package.html" class="extype" name="ch">ch</a>.<a href="../../../../../package.html" class="extype" name="ch.uzh">uzh</a>.<a href="../../../../package.html" class="extype" name="ch.uzh.cl">cl</a>.<a href="../../../package.html" class="extype" name="ch.uzh.cl.slmlib">slmlib</a>.<a href="../../package.html" class="extype" name="ch.uzh.cl.slmlib.ngrams">ngrams</a>.<a href="../package.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics">statistics</a>.<a href="package.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.frequencies">frequencies</a></p>
+        <h1>Frequencies</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Frequencies</span><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <a href="../RangeOrderStatistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics">RangeOrderStatistics</a>[<span class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies.T">T</span>, <span class="extype" name="scala.Int">Int</span>]</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>N-Gram collections with corresponding frequencies.
+</p></div><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><a href="../RangeOrderStatistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics">RangeOrderStatistics</a>[<span class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies.T">T</span>, <span class="extype" name="scala.Int">Int</span>], <a href="../Statistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.Statistics">Statistics</a>[<span class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies.T">T</span>, <span class="extype" name="scala.Int">Int</span>], <span class="extype" name="scala.Serializable">Serializable</span>, <span class="extype" name="java.io.Serializable">Serializable</span>, <span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div><div class="toggleContainer block">
+          <span class="toggle">Known Subclasses</span>
+          <div class="subClasses hiddenContent"><a href="MaxOrderAndSuffixes.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.frequencies.MaxOrderAndSuffixes">MaxOrderAndSuffixes</a></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies"><span>Frequencies</span></li><li class="in" name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics"><span>RangeOrderStatistics</span></li><li class="in" name="ch.uzh.cl.slmlib.ngrams.statistics.Statistics"><span>Statistics</span></li><li class="in" name="scala.Serializable"><span>Serializable</span></li><li class="in" name="java.io.Serializable"><span>Serializable</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show all</span></li>
+            </ol>
+            <a href="http://docs.scala-lang.org/overviews/scaladoc/usage.html#members" target="_blank">Learn more about member selection</a>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        
+
+        <div id="values" class="values members">
+              <h3>Abstract Value Members</h3>
+              <ol><li name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics#maxOrder" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="maxOrder:Int"></a>
+      <a id="maxOrder:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">maxOrder</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Maximum order of n-grams in range.</p><div class="fullcomment"><div class="comment cmt"><p>Maximum order of n-grams in range.</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../RangeOrderStatistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics">RangeOrderStatistics</a></dd></dl></div>
+    </li><li name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics#minOrder" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="minOrder:Int"></a>
+      <a id="minOrder:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">minOrder</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Minimum order of n-grams in range.</p><div class="fullcomment"><div class="comment cmt"><p>Minimum order of n-grams in range.</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../RangeOrderStatistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics">RangeOrderStatistics</a></dd></dl></div>
+    </li></ol>
+            </div>
+
+        <div id="values" class="values members">
+              <h3>Concrete Value Members</h3>
+              <ol><li name="scala.AnyRef#!=" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!=(x$1:AnyRef):Boolean"></a>
+      <a id="!=(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq" class="name">!=</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.Any#!=" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!=(x$1:Any):Boolean"></a>
+      <a id="!=(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq" class="name">!=</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.AnyRef###" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="##():Int"></a>
+      <a id="##():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $hash$hash" class="name">##</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#==" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="==(x$1:AnyRef):Boolean"></a>
+      <a id="==(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq" class="name">==</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.Any#==" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="==(x$1:Any):Boolean"></a>
+      <a id="==(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq" class="name">==</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics#apply" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="apply(orderMin:Int,orderMax:Int):ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics[T,U]"></a>
+      <a id="apply(Int,Int):RangeOrderStatistics[T,Int]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">apply</span><span class="params">(<span name="orderMin">orderMin: <span class="extype" name="scala.Int">Int</span></span>, <span name="orderMax">orderMax: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <a href="../RangeOrderStatistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics">RangeOrderStatistics</a>[<span class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies.T">T</span>, <span class="extype" name="scala.Int">Int</span>]</span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Returns statistics object with n-grams in given order range.</p><div class="fullcomment"><div class="comment cmt"><p>Returns statistics object with n-grams in given order range. apply() function can be also called:</p><pre><span class="kw">val</span> a : RangeOrderStatistics
+a(<span class="num">2</span>,<span class="num">3</span>)</pre></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../RangeOrderStatistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics">RangeOrderStatistics</a></dd></dl></div>
+    </li><li name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics#apply" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="apply(order:Int):ch.uzh.cl.slmlib.ngrams.statistics.SingleOrderStatistics[T,U]"></a>
+      <a id="apply(Int):SingleOrderStatistics[T,Int]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">apply</span><span class="params">(<span name="order">order: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <a href="../SingleOrderStatistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.SingleOrderStatistics">SingleOrderStatistics</a>[<span class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies.T">T</span>, <span class="extype" name="scala.Int">Int</span>]</span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Returns statistics object with n-grams if given order.</p><div class="fullcomment"><div class="comment cmt"><p>Returns statistics object with n-grams if given order. apply() function can be also called:</p><pre><span class="kw">val</span> a : RangeOrderStatistics
+a(<span class="num">2</span>)</pre></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../RangeOrderStatistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics">RangeOrderStatistics</a></dd></dl></div>
+    </li><li name="scala.Any#asInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="asInstanceOf[T0]:T0"></a>
+      <a id="asInstanceOf[T0]:T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">asInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Any.asInstanceOf.T0">T0</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.AnyRef#clone" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="clone():Object"></a>
+      <a id="clone():AnyRef"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">clone</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../../../../../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.CloneNotSupportedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics#count" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="count:Long"></a>
+      <a id="count:Long"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">count</span><span class="result">: <span class="extype" name="scala.Long">Long</span></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Number of n-grams in the collection.</p><div class="fullcomment"><div class="comment cmt"><p>Number of n-grams in the collection.</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../RangeOrderStatistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics">RangeOrderStatistics</a> → <a href="../Statistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.Statistics">Statistics</a></dd></dl></div>
+    </li><li name="scala.AnyRef#eq" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="eq(x$1:AnyRef):Boolean"></a>
+      <a id="eq(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">eq</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#equals" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="equals(x$1:Any):Boolean"></a>
+      <a id="equals(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">equals</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics#filter" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="filter(ngFilter:ch.uzh.cl.slmlib.ngrams.NGramFilter[T,U]):ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics[T,U]"></a>
+      <a id="filter(NGramFilter[T,Int]):RangeOrderStatistics[T,Int]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">filter</span><span class="params">(<span name="ngFilter">ngFilter: <a href="../../NGramFilter.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.NGramFilter">NGramFilter</a>[<span class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies.T">T</span>, <span class="extype" name="scala.Int">Int</span>]</span>)</span><span class="result">: <a href="../RangeOrderStatistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics">RangeOrderStatistics</a>[<span class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies.T">T</span>, <span class="extype" name="scala.Int">Int</span>]</span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Filter the statistics.</p><div class="fullcomment"><div class="comment cmt"><p>Filter the statistics.</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../RangeOrderStatistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics">RangeOrderStatistics</a> → <a href="../Statistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.Statistics">Statistics</a></dd></dl></div>
+    </li><li name="scala.AnyRef#finalize" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="finalize():Unit"></a>
+      <a id="finalize():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">finalize</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../../../../../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">classOf[java.lang.Throwable]</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#getClass" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="getClass():Class[_]"></a>
+      <a id="getClass():Class[_]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getClass</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.Class">Class</span>[_]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#hashCode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hashCode():Int"></a>
+      <a id="hashCode():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hashCode</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.Any#isInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics#iterator" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="iterator:Iterator[(ch.uzh.cl.slmlib.ngrams.NGram[T],U)]"></a>
+      <a id="iterator:Iterator[(NGram[T],Int)]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">iterator</span><span class="result">: <span class="extype" name="scala.Iterator">Iterator</span>[(<a href="../../NGram.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.NGram">NGram</a>[<span class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies.T">T</span>], <span class="extype" name="scala.Int">Int</span>)]</span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Memory efficient iterator over n-grams of all orders.</p><div class="fullcomment"><div class="comment cmt"><p>Memory efficient iterator over n-grams of all orders.
+Iterator retrieves one partition at a time, so the memory required on client side equals to the size of the biggest partition.
+</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../RangeOrderStatistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics">RangeOrderStatistics</a> → <a href="../Statistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.Statistics">Statistics</a></dd></dl></div>
+    </li><li name="scala.AnyRef#ne" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ne(x$1:AnyRef):Boolean"></a>
+      <a id="ne(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ne</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#notify" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notify():Unit"></a>
+      <a id="notify():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notify</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#notifyAll" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notifyAll():Unit"></a>
+      <a id="notifyAll():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notifyAll</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics#partitionsNumber" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="partitionsNumber:Int"></a>
+      <a id="partitionsNumber:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">partitionsNumber</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Number of partitions in collection's RDD.</p><div class="fullcomment"><div class="comment cmt"><p>Number of partitions in collection's RDD.</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../RangeOrderStatistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics">RangeOrderStatistics</a> → <a href="../Statistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.Statistics">Statistics</a></dd></dl></div>
+    </li><li name="ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies#saveAsTextFile" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="saveAsTextFile(path:String,format:String):Unit"></a>
+      <a id="saveAsTextFile(String,String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">saveAsTextFile</span><span class="params">(<span name="path">path: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="format">format: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;%s %d&quot;</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Save statistics into distributed storage (e.</p><div class="fullcomment"><div class="comment cmt"><p>Save statistics into distributed storage (e.g. HDFS, Amazon S3).</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies">Frequencies</a> → <a href="../RangeOrderStatistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics">RangeOrderStatistics</a> → <a href="../Statistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.Statistics">Statistics</a></dd></dl></div>
+    </li><li name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics#saveNGramsAsSerializedRDD" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="saveNGramsAsSerializedRDD(path:String):Unit"></a>
+      <a id="saveNGramsAsSerializedRDD(String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">saveNGramsAsSerializedRDD</span><span class="params">(<span name="path">path: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Save serialized statistics into distributed storage (e.</p><div class="fullcomment"><div class="comment cmt"><p>Save serialized statistics into distributed storage (e.g. HDFS, Amazon S3).</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../RangeOrderStatistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics">RangeOrderStatistics</a> → <a href="../Statistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.Statistics">Statistics</a></dd></dl></div>
+    </li><li name="ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies#saveSortedAsTextFile" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="saveSortedAsTextFile(path:String,partitions:Int,format:String):Unit"></a>
+      <a id="saveSortedAsTextFile(String,Int,String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">saveSortedAsTextFile</span><span class="params">(<span name="path">path: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="partitions">partitions: <span class="extype" name="scala.Int">Int</span> = <span class="symbol"><span class="name"><a href="../RangeOrderStatistics.html#partitionsNumber:Int">this.partitionsNumber</a></span></span></span>, <span name="format">format: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;%s %d&quot;</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Save sorted (key-based) frequencies into distributed storage (e.</p><div class="fullcomment"><div class="comment cmt"><p>Save sorted (key-based) frequencies into distributed storage (e.g. HDFS, Amazon S3).</p></div></div>
+    </li><li name="scala.AnyRef#synchronized" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="synchronized[T0](x$1:=&gt;T0):T0"></a>
+      <a id="synchronized[T0](⇒T0):T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">synchronized</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="params">(<span name="arg0">arg0: ⇒ <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>)</span><span class="result">: <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#toString" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toString():String"></a>
+      <a id="toString():String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toString</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait():Unit"></a>
+      <a id="wait():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long,x$2:Int):Unit"></a>
+      <a id="wait(Long,Int):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>, <span name="arg1">arg1: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long):Unit"></a>
+      <a id="wait(Long):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics">
+              <h3>Inherited from <a href="../RangeOrderStatistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.RangeOrderStatistics">RangeOrderStatistics</a>[<span class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies.T">T</span>, <span class="extype" name="scala.Int">Int</span>]</h3>
+            </div><div class="parent" name="ch.uzh.cl.slmlib.ngrams.statistics.Statistics">
+              <h3>Inherited from <a href="../Statistics.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.Statistics">Statistics</a>[<span class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics.frequencies.Frequencies.T">T</span>, <span class="extype" name="scala.Int">Int</span>]</h3>
+            </div><div class="parent" name="scala.Serializable">
+              <h3>Inherited from <span class="extype" name="scala.Serializable">Serializable</span></h3>
+            </div><div class="parent" name="java.io.Serializable">
+              <h3>Inherited from <span class="extype" name="java.io.Serializable">Serializable</span></h3>
+            </div><div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../../../../../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../../../../../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../../../../../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../../../../../../lib/template.js"></script>
+    </body>
+      </html>

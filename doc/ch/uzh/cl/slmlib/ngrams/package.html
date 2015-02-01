@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>ngrams - SLMLib documentation - ch.uzh.cl.slmlib.ngrams</title>
+          <meta name="description" content="ngrams - SLMLib documentation - ch.uzh.cl.slmlib.ngrams" />
+          <meta name="keywords" content="ngrams SLMLib documentation ch.uzh.cl.slmlib.ngrams" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../index.html';
+            var hash = 'ch.uzh.cl.slmlib.ngrams.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../../package.html" class="extype" name="ch">ch</a>.<a href="../../../package.html" class="extype" name="ch.uzh">uzh</a>.<a href="../../package.html" class="extype" name="ch.uzh.cl">cl</a>.<a href="../package.html" class="extype" name="ch.uzh.cl.slmlib">slmlib</a></p>
+        <h1>ngrams</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ngrams</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>N-grams related functionality. For statistics (frequencies, probabilities) see <a href="statistics/package.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.statistics">ch.uzh.cl.slmlib.ngrams.statistics</a>
+</p></div><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="ch.uzh.cl.slmlib.ngrams"><span>ngrams</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show all</span></li>
+            </ol>
+            <a href="http://docs.scala-lang.org/overviews/scaladoc/usage.html#members" target="_blank">Learn more about member selection</a>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="ch.uzh.cl.slmlib.ngrams.NGram" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NGram[T]extendsOrdered[ch.uzh.cl.slmlib.ngrams.NGram[T]]withProductwithSerializable"></a>
+      <a id="NGram[T]:NGram[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="NGram.html"><span class="name">NGram</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="sequence">sequence: <span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="ch.uzh.cl.slmlib.ngrams.NGram.T">T</span>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Ordered">Ordered</span>[<a href="NGram.html" class="extype" name="ch.uzh.cl.slmlib.ngrams.NGram">NGram</a>[<span class="extype" name="ch.uzh.cl.slmlib.ngrams.NGram.T">T</span>]] with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Represents n-gram object.</p>
+    </li><li name="ch.uzh.cl.slmlib.ngrams.NGramFilter" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="NGramFilter[T,U]extendsSerializable"></a>
+      <a id="NGramFilter[T,U]:NGramFilter[T,U]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="NGramFilter.html"><span class="name">NGramFilter</span></a><span class="tparams">[<span name="T">T</span>, <span name="U">U</span>]</span><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Wraps filter functions that can be applied on NGram statistics.</p>
+    </li><li name="ch.uzh.cl.slmlib.ngrams.PrefixPartitioner" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PrefixPartitioner[T]extendsPartitioner"></a>
+      <a id="PrefixPartitioner[T]:PrefixPartitioner[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PrefixPartitioner.html"><span class="name">PrefixPartitioner</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <span class="extype" name="org.apache.spark.Partitioner">Partitioner</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Customizes collections partitioning so NGrams with the same prefix are shuffled to the same partitions.</p>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="ch.uzh.cl.slmlib.ngrams.Implicits" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Implicits"></a>
+      <a id="Implicits:Implicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Implicits$.html"><span class="name">Implicits</span></a>
+      </span>
+      </h4>
+      <p class="comment cmt">Set of implicit conversions.</p>
+    </li><li name="ch.uzh.cl.slmlib.ngrams.NGramFilter" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NGramFilter"></a>
+      <a id="NGramFilter:NGramFilter"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="NGramFilter$.html"><span class="name">NGramFilter</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Predefined filters.</p>
+    </li><li name="ch.uzh.cl.slmlib.ngrams.Orderings" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Orderings"></a>
+      <a id="Orderings:Orderings"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Orderings$.html"><span class="name">Orderings</span></a>
+      </span>
+      </h4>
+      <p class="comment cmt">N-gram statistics ordering factories.</p>
+    </li><li name="ch.uzh.cl.slmlib.ngrams.statistics" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="statistics"></a>
+      <a id="statistics:statistics"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="statistics/package.html"><span class="name">statistics</span></a>
+      </span>
+      </h4>
+      <p class="comment cmt">N-gram statistics collections functionality.</p>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../../../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../../../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../../../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../../../../lib/template.js"></script>
+    </body>
+      </html>
